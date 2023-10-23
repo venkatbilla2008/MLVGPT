@@ -7,12 +7,12 @@ from deeplake.util.bugout_reporter import deeplake_reporter
 from langchain.schema import Document
 from langchain.vectorstores import DeepLake, VectorStore
 
-from datachad.backend.constants import DATA_PATH, DEFAULT_USER, LOCAL_DEEPLAKE
-from datachad.backend.io import clean_string_for_storing
-from datachad.backend.loader import load_data_source, split_docs
-from datachad.backend.logging import logger
-from datachad.backend.models import get_embeddings
-from datachad.backend.utils import clean_string_for_storing
+from mlvgptproject.backend.constants import DATA_PATH, DEFAULT_USER, LOCAL_DEEPLAKE
+from mlvgptproject.backend.io import clean_string_for_storing
+from mlvgptproject.backend.loader import load_data_source, split_docs
+from mlvgptproject.backend.logging import logger
+from mlvgptproject.backend.models import get_embeddings
+from mlvgptproject.backend.utils import clean_string_for_storing
 
 SPLIT = "_"
 

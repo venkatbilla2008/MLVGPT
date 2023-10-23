@@ -4,9 +4,9 @@ import shutil
 from pathlib import Path
 from typing import List, Tuple
 
-from datachad.backend.constants import DATA_PATH
-from datachad.backend.logging import logger
-from datachad.backend.utils import clean_string_for_storing
+from mlvgptproject.backend.constants import DATA_PATH
+from mlvgptproject.backend.logging import logger
+from mlvgptproject.backend.utils import clean_string_for_storing
 
 
 def concatenate_file_names(strings: List[str], n_max: int = 30) -> str:

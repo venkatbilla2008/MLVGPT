@@ -1,6 +1,6 @@
-from datachad.streamlit.helper import init_session_state
+from mlvgptproject.streamlit.helper import init_session_state
 #
-from datachad.streamlit.widgets import (
+from mlvgptproject.streamlit.widgets import (
     advanced_options_widget,
     authentication_widget,
     chat_interface_widget,

@@ -1,15 +1,15 @@
 import streamlit as st
 
-from datachad.backend.constants import (
+from mlvgptproject.backend.constants import (
     CHUNK_OVERLAP_PCT,
     CHUNK_SIZE,
     ENABLE_ADVANCED_OPTIONS,
     MAX_TOKENS,
     TEMPERATURE,
 )
-from datachad.backend.logging import logger
-from datachad.backend.models import MODELS
-from datachad.streamlit.constants import (
+from mlvgptproject.backend.logging import logger
+from mlvgptproject.backend.models import MODELS
+from mlvgptproject.streamlit.constants import (
     ACTIVELOOP_HELP,
     APP_NAME,
     OPENAI_HELP,
@@ -17,7 +17,7 @@ from datachad.streamlit.constants import (
     PROJECT_URL,
     UPLOAD_HELP,
 )
-from datachad.streamlit.helper import (
+from mlvgptproject.streamlit.helper import (
     PrintRetrievalHandler,
     StreamHandler,
     UsageHandler,
