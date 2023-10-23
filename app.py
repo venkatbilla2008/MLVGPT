@@ -1,6 +1,6 @@
-from mlvgpt_project.streamlit.helper import init_session_state
-##
-from mlvgpt_project.streamlit.widgets import (
+from mlvgptproject.streamlit.helper import init_session_state
+#
+from mlvgptproject.streamlit.widgets import (
     advanced_options_widget,
     authentication_widget,
     chat_interface_widget,
