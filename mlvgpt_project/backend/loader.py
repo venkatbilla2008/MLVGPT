@@ -26,9 +26,9 @@ from langchain.schema import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from tqdm import tqdm
 
-from mlvgptproject.backend.constants import DATA_PATH
-from mlvgptproject.backend.logging import logger
-from mlvgptproject.backend.models import get_tokenizer
+from mlvgpt_project.backend.constants import DATA_PATH
+from mlvgpt_project.backend.logging import logger
+from mlvgpt_project.backend.models import get_tokenizer
 
 
 class AutoGitLoader:

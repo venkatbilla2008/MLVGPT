@@ -1,15 +1,15 @@
 import streamlit as st
 
-from mlvgptproject.backend.constants import (
+from mlvgpt_project.backend.constants import (
     CHUNK_OVERLAP_PCT,
     CHUNK_SIZE,
     ENABLE_ADVANCED_OPTIONS,
     MAX_TOKENS,
     TEMPERATURE,
 )
-from mlvgptproject.backend.logging import logger
-from mlvgptproject.backend.models import MODELS
-from mlvgptproject.streamlit.constants import (
+from mlvgpt_project.backend.logging import logger
+from mlvgpt_project.backend.models import MODELS
+from mlvgpt_project.streamlit.constants import (
     ACTIVELOOP_HELP,
     APP_NAME,
     OPENAI_HELP,
@@ -17,7 +17,7 @@ from mlvgptproject.streamlit.constants import (
     PROJECT_URL,
     UPLOAD_HELP,
 )
-from mlvgptproject.streamlit.helper import (
+from mlvgpt_project.streamlit.helper import (
     PrintRetrievalHandler,
     StreamHandler,
     UsageHandler,

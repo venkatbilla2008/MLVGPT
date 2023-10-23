@@ -2,10 +2,10 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 from langchain.schema import BaseChatMessageHistory
 
-from mlvgptproject.backend.deeplake import get_deeplake_vector_store
-from mlvgptproject.backend.logging import logger
-from mlvgptproject.backend.models import get_model
-from mlvgptproject.backend.prompts import CONDENSE_QUESTION_PROMPT, QA_PROMPT
+from mlvgpt_project.backend.deeplake import get_deeplake_vector_store
+from mlvgpt_project.backend.logging import logger
+from mlvgpt_project.backend.models import get_model
+from mlvgpt_project.backend.prompts import CONDENSE_QUESTION_PROMPT, QA_PROMPT
 
 
 def get_search_kwargs(options: dict):

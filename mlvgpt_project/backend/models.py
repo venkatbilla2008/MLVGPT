@@ -9,8 +9,8 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.embeddings.openai import Embeddings, OpenAIEmbeddings
 from transformers import AutoTokenizer
 
-from mlvgptproject.backend.constants import MODEL_PATH
-from mlvgptproject.backend.logging import logger
+from mlvgpt_project.backend.constants import MODEL_PATH
+from mlvgpt_project.backend.logging import logger
 
 
 class Enum:

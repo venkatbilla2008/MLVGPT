@@ -8,8 +8,8 @@ from langchain.callbacks.base import BaseCallbackHandler
 from langchain.callbacks.openai_info import get_openai_token_cost_for_model
 from langchain.memory.chat_message_histories import StreamlitChatMessageHistory
 
-from mlvgptproject.backend.chain import get_conversational_retrieval_chain
-from mlvgptproject.backend.constants import (
+from mlvgpt_project.backend.chain import get_conversational_retrieval_chain
+from mlvgpt_project.backend.constants import (
     CHUNK_OVERLAP_PCT,
     CHUNK_SIZE,
     DISTANCE_METRIC,
@@ -19,14 +19,14 @@ from mlvgptproject.backend.constants import (
     STORE_DOCS_EXTRA,
     TEMPERATURE,
 )
-from mlvgptproject.backend.deeplake import (
+from mlvgpt_project.backend.deeplake import (
     get_data_source_from_deeplake_dataset_path,
     get_deeplake_vector_store_paths_for_user,
 )
-from mlvgptproject.backend.io import delete_files, save_files
-from mlvgptproject.backend.logging import logger
-from mlvgptproject.backend.models import MODELS, get_tokenizer
-from mlvgptproject.streamlit.constants import DEFAULT_DATA_SOURCE, PAGE_ICON
+from mlvgpt_project.backend.io import delete_files, save_files
+from mlvgpt_project.backend.logging import logger
+from mlvgpt_project.backend.models import MODELS, get_tokenizer
+from mlvgpt_project.streamlit.constants import DEFAULT_DATA_SOURCE, PAGE_ICON
 
 # loads environment variables
 load_dotenv()
