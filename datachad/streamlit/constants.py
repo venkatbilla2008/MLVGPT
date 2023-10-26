@@ -1,5 +1,5 @@
 PAGE_ICON = "🤗❣️"
-APP_NAME = "MLV GPT"
+APP_NAME = "MLV-GPT"
 PROJECT_URL = "https://github.com/MlvPrasadOfficial/MLVGPT"
 DEFAULT_DATA_SOURCE = "https://github.com/gustavz/DataChad.git"
 
