@@ -118,22 +118,22 @@ def authentication_widget():
             "Authentication", expanded=not st.session_state["auth_ok"]
         ), st.form("authentication"):
             openai_api_key = st.text_input(
-                f"OpenAI API Key",
+                f"MLV OPEN AI KEY",
                 type="password",
                 help=OPENAI_HELP,
-                placeholder="This field is mandatory",
+                placeholder="Enter Token",
             )
             activeloop_token = st.text_input(
-                "ActiveLoop Token",
+                "Vector Token",
                 type="password",
                 help=ACTIVELOOP_HELP,
-                placeholder="Optional, using ours if empty",
+                placeholder="Enter DB Token",
             )
             activeloop_id = st.text_input(
-                "ActiveLoop Organisation Name",
+                "Organisation DBName",
                 type="password",
                 help=ACTIVELOOP_HELP,
-                placeholder="Optional, using ours if empty",
+                placeholder="Organisation",
             )
             submitted = st.form_submit_button("Submit")
             if submitted:
