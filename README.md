@@ -25,24 +25,3 @@ This is an app that let's you ask questions about any data source by leveraging 
 
 <img src="./datachadV2.png" width="100%"/>
 
-## TODO LIST
-If you like to contribute, feel free to grab any task
-- [x] Refactor utils, especially the loaders
-- [x] Add option to choose model and embeddings
-- [x] Enable fully local / private mode
-- [x] Add option to upload multiple files to a single dataset
-- [x] Decouple datachad modules from streamlit
-- [x] remove all local mode and other V1 stuff
-- [x] Load existing knowledge bases
-- [x] Delete existing knowledge bases
-- [x] Enable streaming responses
-- [x] Show retrieved context
-- [ ] Refactor UI
-- [ ] Introduce smart FAQs
-- [ ] Exchange downloaded file storage with tempfile
-- [ ] Add user creation and login
-- [ ] Add chat history per user
-- [ ] Make all I/O asynchronous
-- [ ] Implement FastAPI routes and backend app
-- [ ] Implement a proper frontend (react or whatever)
-- [ ] containerize the app
