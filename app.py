@@ -1,5 +1,5 @@
-from datachad.streamlit.helper import init_session_state
-from datachad.streamlit.widgets import (
+from mlvprasad.streamlit.helper import init_session_state
+from mlvprasad.streamlit.widgets import (
     advanced_options_widget,
     authentication_widget,
     chat_interface_widget,

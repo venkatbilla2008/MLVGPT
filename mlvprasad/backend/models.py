@@ -9,8 +9,8 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.embeddings.openai import Embeddings, OpenAIEmbeddings
 from transformers import AutoTokenizer
 
-from datachad.backend.constants import MODEL_PATH
-from datachad.backend.logging import logger
+from mlvprasad.backend.constants import MODEL_PATH
+from mlvprasad.backend.logging import logger
 
 
 class Enum:

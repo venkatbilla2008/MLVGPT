@@ -26,9 +26,9 @@ from langchain.schema import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from tqdm import tqdm
 
-from datachad.backend.constants import DATA_PATH
-from datachad.backend.logging import logger
-from datachad.backend.models import get_tokenizer
+from mlvprasad.backend.constants import DATA_PATH
+from mlvprasad.backend.logging import logger
+from mlvprasad.backend.models import get_tokenizer
 
 
 class AutoGitLoader:

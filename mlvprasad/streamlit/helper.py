@@ -8,8 +8,8 @@ from langchain.callbacks.base import BaseCallbackHandler
 from langchain.callbacks.openai_info import get_openai_token_cost_for_model
 from langchain.memory.chat_message_histories import StreamlitChatMessageHistory
 
-from datachad.backend.chain import get_conversational_retrieval_chain
-from datachad.backend.constants import (
+from mlvprasad.backend.chain import get_conversational_retrieval_chain
+from mlvprasad.backend.constants import (
     CHUNK_OVERLAP_PCT,
     CHUNK_SIZE,
     DISTANCE_METRIC,
@@ -19,14 +19,14 @@ from datachad.backend.constants import (
     STORE_DOCS_EXTRA,
     TEMPERATURE,
 )
-from datachad.backend.deeplake import (
+from mlvprasad.backend.deeplake import (
     get_data_source_from_deeplake_dataset_path,
     get_deeplake_vector_store_paths_for_user,
 )
-from datachad.backend.io import delete_files, save_files
-from datachad.backend.logging import logger
-from datachad.backend.models import MODELS, get_tokenizer
-from datachad.streamlit.constants import DEFAULT_DATA_SOURCE, PAGE_ICON
+from mlvprasad.backend.io import delete_files, save_files
+from mlvprasad.backend.logging import logger
+from mlvprasad.backend.models import MODELS, get_tokenizer
+from mlvprasad.streamlit.constants import DEFAULT_DATA_SOURCE, PAGE_ICON
 
 # loads environment variables
 load_dotenv()
