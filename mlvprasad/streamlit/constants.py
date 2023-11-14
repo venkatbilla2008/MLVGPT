@@ -1,8 +1,8 @@
 PAGE_ICON = "🤗"
 APP_NAME = "MLV-GPT"
 PROJECT_URL = "https://github.com/MlvPrasadOfficial/MLVGPT"
-DEFAULT_DATA_SOURCE = "https://github.com/MlvPrasadOfficial/MLVGPT.git"
-# DEFAULT_DATA_SOURCE = "https://github.com/gustavz/DataChad.git"
+# DEFAULT_DATA_SOURCE = "https://github.com/MlvPrasadOfficial/MLVGPT.git"
+DEFAULT_DATA_SOURCE = "https://github.com/gustavz/DataChad.git"
 
 
 LOCAL_MODE_DISABLED_HELP = """
